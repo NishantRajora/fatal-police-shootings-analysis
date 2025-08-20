@@ -1,74 +1,64 @@
-Fatal Police Shootings Data Analysis
-This repository contains a data analysis project on fatal police shootings in the United States, using the dataset from the Washington Post and related sources. The project focuses on data preprocessing, exploratory data analysis (EDA), and visualization of key patterns such as demographics, geographic distribution, weapon status, and temporal trends.
+#  ​ Fatal Police Shootings Data Analysis
 
-📂 Repository Contents
-Data Files
+This repository offers a comprehensive **data analysis project on fatal police shootings** in the United States, leveraging data from *The Washington Post*. The project includes **data preprocessing**, **exploratory data analysis (EDA)**, and **visualization**, uncovering patterns across **demographics**, **geography**, **weapon usage**, and **time trends**.
 
-fatal-police-shootings-data.csv → Raw dataset
+---
 
-fatal-police-shootings-cleaned.csv → Cleaned dataset after preprocessing
+##  Repository Structure
 
-Python Scripts
+├── data/
+│ ├── fatal-police-shootings-data.csv # Raw dataset
+│ └── fatal-police-shootings-cleaned.csv # Cleaned dataset after preprocessing
+│
+├── scripts/
+│ ├── prepros.py # Preprocessing: cleaning & formatting
+│ ├── analyse.py # EDA & visualizations
+│ ├── v3.py, v4.py # Experimental/extended analyses
+│
+├── reports/
+│ ├── report_before_preprocessing.docx # Insights from raw dataset
+│ └── report_after_preprocessing.docx # Findings post-cleanup
+│
+├── visuals/
+│ ├── age_distribution.png
+│ ├── armed_status.png
+│ ├── body_camera_pie.png
+│ ├── gender_race_distribution.png
+│ ├── monthly_incidents.png
+│ ├── top_states.png
+│ ├── yearwise_bodycam.png
+│ └── map.html # Interactive map using Folium
+└── README.md
 
-prepros.py → Script for data preprocessing (handling missing values, cleaning, and formatting)
+yaml
+Copy
+Edit
 
-analyse.py → Exploratory Data Analysis (EDA) and visualization script
+---
 
-v3.py, v4.py → Additional analysis/experimentation scripts
+##  Key Insights
 
-Reports
+- **Demographic Trends**: Clear patterns in age, gender, and race distributions among victims  
+- **Geographic Disparities**: Certain states report higher shooting counts than others  
+- **Body Camera Usage**: Mixed adoption—some state variation over time  
+- **Weapon Status**: Incidents vary depending on whether a victim was armed or unarmed  
+- **Temporal Patterns**: Season and year-over-year variance in incident frequency
 
-report before preprocessing.docx → Initial observations from raw dataset
+---
 
-report after preprocessing.docx → Findings and insights after data cleaning
+##  Preview of Visualizations
 
-Visualizations (generated using Matplotlib/Seaborn/Folium)
+- **Age Distribution**  
+  ![Age Distribution](visuals/age_distribution.png)
 
-age_distribution.png → Distribution of victims’ ages
+- **Body Camera Use**  
+  ![Body Camera Usage](visuals/body_camera_pie.png)
 
-armed_status.png → Weapon/armed status distribution
+- **Top Performing States**  
+  ![Top States](visuals/top_states.png)
 
-body_camera_pie.png → Body camera usage by incidents
+- **Incident Map (Interactive)**  
+  [View Map](visuals/map.html)
 
-gender_race_distribution.png → Gender and race distribution
-
-monthly_incidents.png → Incidents over months
-
-top_states.png → States with the highest number of cases
-
-yearwise_bodycam.png → Body camera usage across years
-
-map.html → Interactive map of incidents
-
-
-📊 Key Insights
-Demographics: Analysis shows strong trends in age, gender, and race distribution of victims.
-
-Geography: Certain states contribute disproportionately to fatal shootings.
-
-Body Cameras: Adoption of body cameras has increased over the years but varies widely by state.
-
-Weapons: Armed vs. unarmed status significantly impacts the frequency and reporting of incidents.
-
-Trends Over Time: Seasonal and yearly patterns reveal fluctuations in incidents.
-
-🌍 Visualization Preview
-Below are some sample outputs (see repo for all):
-
-Age distribution of victims
-
-Body camera usage pie chart
-
-Heatmap of top states
-
-Interactive map (map.html)
-
-📌 Future Work
-Add machine learning models for predictive analysis.
-
-Perform clustering of states/incidents by patterns.
-
-Automate preprocessing pipeline.
-
-Deploy interactive dashboard (e.g., Streamlit).
+---
 
