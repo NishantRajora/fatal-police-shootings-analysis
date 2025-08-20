@@ -1,64 +1,54 @@
-#  ​ Fatal Police Shootings Data Analysis
+# 🚔 Fatal Police Shootings Data Analysis
 
-This repository offers a comprehensive **data analysis project on fatal police shootings** in the United States, leveraging data from *The Washington Post*. The project includes **data preprocessing**, **exploratory data analysis (EDA)**, and **visualization**, uncovering patterns across **demographics**, **geography**, **weapon usage**, and **time trends**.
+This repository contains a **data analysis project** on fatal police shootings in the United States, using the dataset from the *Washington Post* and related sources.  
+The project focuses on **data preprocessing**, **exploratory data analysis (EDA)**, and **visualization** of key patterns such as demographics, geographic distribution, weapon status, and temporal trends.
 
----
 
-##  Repository Structure
-
-├── data/
-│ ├── fatal-police-shootings-data.csv # Raw dataset
-│ └── fatal-police-shootings-cleaned.csv # Cleaned dataset after preprocessing
-│
-├── scripts/
-│ ├── prepros.py # Preprocessing: cleaning & formatting
-│ ├── analyse.py # EDA & visualizations
-│ ├── v3.py, v4.py # Experimental/extended analyses
-│
-├── reports/
-│ ├── report_before_preprocessing.docx # Insights from raw dataset
-│ └── report_after_preprocessing.docx # Findings post-cleanup
-│
-├── visuals/
-│ ├── age_distribution.png
-│ ├── armed_status.png
-│ ├── body_camera_pie.png
-│ ├── gender_race_distribution.png
-│ ├── monthly_incidents.png
-│ ├── top_states.png
-│ ├── yearwise_bodycam.png
-│ └── map.html # Interactive map using Folium
-└── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
-##  Key Insights
+## 📊 Key Insights
 
-- **Demographic Trends**: Clear patterns in age, gender, and race distributions among victims  
-- **Geographic Disparities**: Certain states report higher shooting counts than others  
-- **Body Camera Usage**: Mixed adoption—some state variation over time  
-- **Weapon Status**: Incidents vary depending on whether a victim was armed or unarmed  
-- **Temporal Patterns**: Season and year-over-year variance in incident frequency
-
----
-
-##  Preview of Visualizations
-
-- **Age Distribution**  
-  ![Age Distribution](visuals/age_distribution.png)
-
-- **Body Camera Use**  
-  ![Body Camera Usage](visuals/body_camera_pie.png)
-
-- **Top Performing States**  
-  ![Top States](visuals/top_states.png)
-
-- **Incident Map (Interactive)**  
-  [View Map](visuals/map.html)
+- **Demographics**: Clear trends in **age, gender, and race** distribution of victims.  
+- **Geography**: Certain states contribute **disproportionately** to fatal shootings.  
+- **Body Cameras**: Usage has **increased over years**, but adoption varies across states.  
+- **Weapons**: Being armed vs. unarmed significantly impacts frequency & reporting.  
+- **Temporal Trends**: Both **seasonal** and **yearly fluctuations** are visible.  
 
 ---
 
+## 🌍 Visualizations
+
+Some sample outputs (see `/visuals` for all):
+
+- Age distribution of victims  
+- Body camera usage pie chart  
+- Heatmap of top states  
+- Interactive incident map (**map.html**)  
+
+---
+
+## 📌 Future Work
+
+- ✅ Add **machine learning models** for predictive analysis  
+- ✅ Perform **clustering of states/incidents** by patterns  
+- ✅ Automate **data preprocessing pipeline**  
+- ✅ Deploy an **interactive dashboard** (e.g., Streamlit, Plotly Dash)  
+
+---
+
+## ⚡ Tech Stack
+
+- **Python** (pandas, numpy, matplotlib, seaborn, folium)  
+- **Jupyter / Scripts** for analysis  
+- **MS Word / Docs** for reporting  
+- **GitHub** for version control & sharing  
+
+---
+
+## 📜 License
+
+This project is for **educational & research purposes only**.  
+Dataset credits: *The Washington Post*.  
+
+---
