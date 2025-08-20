@@ -44,11 +44,3 @@ Some sample outputs (see `/visuals` for all):
 - **MS Word / Docs** for reporting  
 - **GitHub** for version control & sharing  
 
----
-
-## 📜 License
-
-This project is for **educational & research purposes only**.  
-Dataset credits: *The Washington Post*.  
-
----
